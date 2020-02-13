@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/ecd-batch/src/main/java/com/nelson/ecd/EcdBatch.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="COMT.INPUTFILE" value="COMT.INPUTFILE"/>
+<mapEntry key="CONO.INPUTFILE" value="CONO.INPUTFILE"/>
+<mapEntry key="Nelson.FileDir" value="C:\Nelson\Data"/>
+<mapEntry key="Nelson.SchemaName" value="nelsonprodv3_100."/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.nelson.ecd.EcdBatch"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ecd-batch"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dhttp.proxyHost=csez-s500 -Dhttp.proxyPort=8080 -Dhttp.proxyUser=venkataprasad.j -Dhttp.proxyPassword=e198198165165."/>
+</launchConfiguration>

@@ -1,0 +1,18 @@
+package com.venkat.microservice;
+
+public class Test {
+
+	public int doFactorial(int n) {
+		int f = 0;
+		if(n!=0) {
+			f= doFactorial(n-1)*n;
+		}
+		return f;
+	}
+	
+	public static void main(String[] args) {
+		Test t = new Test();
+		System.out.println(t.doFactorial(5));
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.venkat.microservice;
+
+public class Test {
+
+	public int doFactorial(int n) {
+		if(n==0) {
+			return 1;
+		} else {
+			return doFactorial(n-1)*n;
+		}
+	}
+	
+	public static void main(String[] args) {
+		for(int i=3; i>0; i--) {
+			for(int j=3; j < 0; j--) {
+				System.out.print("*");
+			}
+			System.out.print("\n");
+		}
+	}
+
+}
